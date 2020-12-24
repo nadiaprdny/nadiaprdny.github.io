@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>TV Geeks!</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+ html {
+   scroll-behavior: smooth;
+ }
+
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large" >
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white" target="_blank">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Reviews</a>
+    <a href="movies.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Movies</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact Us</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Submit</a>
+   
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Titles</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#b99">Brooklyn Nine Nine</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#mofy">Modern Family</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#gg">Gilmore Girls</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Grey's Anatomy</a>
+</nav>
+
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+  <div id="b99"> 
+      <h1  class="w3-text-navy">Brooklyn Nine-Nine</h1>
+      <p>The series was so finely written, it has bring a lot of emotions to the viewers. this TV show has everything! The drama, the friendship,
+        the love! Whatever Gina Linetti is feeling, we all feel it too. The plot is unexpected like Captain Holt's expression. <br> 
+        I think we can all agree that our favorite series are the Halloween Heists, so festive, so alive. i think that's what makes 
+        halloween fun. I can't decide which one is my favorite comfort Episode of all time but it has gotta be 
+    either the "Jake & Amy" Season 5 Episode 22 where they got married (never fails fo make me cry btw) Or, the first ever halloween heist! "Halloween" Season 1 Episode 6.</p>
+      </div> 
+  </div>
+    <div class="w3-third w3-container">
+      <img src="b99.jpg" class="w3-border w3-padding-large w3-padding-64 w3-center"
+      style="width: 300px;"
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <div id="mofy">
+      <h1 class="w3-text-orange">Modern Family</h1>
+      <p>Brilliant, Astonishing, Amazing, Greatest work of all time. I think that described it enough.
+          <br> I kid. But in all seriousness, it's perfect. Cam and Mitch doesn't go a day without the drama. Jay and Gloria without Stella
+          and Phil and Claire without yelling at their kids! It shocked me when they said it was filmed on a set and not in the ACTUAL house.
+          It feels so homey just by looking through the screen. My favorite character has got to be Mitch, i relate to him so much. <br>
+          The boundary issues, the "my soulmate is a clown" and the fact that he's a lawyer (my dream job) And the fact that 
+          Eric Stonestreet is a straight man is shocking to me! He killed it as Cam! But oh? It's Sofia Vergara walking to the set. All eyes on her! <br> 
+      </div> 
+      </p>
+    </div>
+    <div class="w3-third w3-container">
+      <img src= "mofy.jpg" class="w3-border w3-padding-large w3-padding-64 w3-center"
+       style="width: 300px; ">
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 id="gg" class="w3-text-pink">Gilmore Girls</h1>
+      <p>Supercharged, sarcastic and comical, Gilmore Girls have been a delight throughout the original and revival series. Although musicals were redundant and certain stories had loose ends in the revival, especially that of Rory's, the state of the series remain intact in terms of tone and dialogue. <br>
+        For those who disliked the revival, it might be easy to look at the 4 feature-length episodes as an alternate ending to the original that serves the purpose of reflection rather than progression. I'm on #TeamLogan he's Mr.Perfect don't you think?</p>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="gg.jpg"  class="w3-border w3-padding-large w3-padding-64 w3-center"
+      style="width: 300px; ">
+    </div>
+  </div>
+      
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+
+        <h1>My Socials! </h1>
+        
+        <a href="https://open.spotify.com/user/nadiaprdny " target="_blank"> 
+        <i class="fa fa-spotify" style="font-size:48px"></i> </a>
+     
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+       <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">Nadia Pradnya, 2020</a>
+    </div>
+  </footer>
+
+
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
